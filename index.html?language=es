@@ -1,0 +1,1031 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Robotop</title>
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="assets/libs/bootstrap/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets/libs/swiper/swiper.min.css">
+    <link rel="stylesheet" href="assets/libs/formstyler/jquery.formstyler.css">
+    <link rel="stylesheet" href="assets/libs/formstyler/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="assets/libs/lobibox/css/lobibox.min.css">
+    <link rel="stylesheet" href="assets/libs/ResponsiveTables/ng_responsive_tables.css">
+    <link rel="stylesheet" href="assets/libs/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="assets/libs/animatecss/animate.css">
+    <link rel="stylesheet" href="assets/libs/aos/aos.css">
+    <link rel="stylesheet" href="assets/libs/flag-icon/css/flag-icon.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/custom.css?v=1.0001">
+    <!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+    <style>
+        .header-title .pp:after{
+            right: 19px;
+            bottom: -1px;
+            border-bottom-right-radius: 5px;
+        }
+        @media screen and (max-width: 480px){
+            .header-title .pp:after {
+                right: 17px;
+                bottom: 2px;
+            }
+        }
+    </style>
+</head>
+<body>
+<svg class="svg-gradients">
+    <lineargradient id="gr" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color: #092abb;stop-opacity:1"></stop>
+        <stop offset="100%" style="stop-color: #e53946;stop-opacity:1"></stop>
+    </lineargradient>
+    <lineargradient id="gr-r" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color: #e53946;stop-opacity:1"></stop>
+        <stop offset="100%" style="stop-color: #092abb;stop-opacity:1"></stop>
+    </lineargradient>
+</svg>
+
+<div class="wrapper">
+    <div class="content">
+        <header class="header">
+            <div class="header-top" data-aos="fade-down" data-aos-delay="0">
+    <div class="header-mob">
+        <div class="nicescroll-box">
+            <div class="wrap">
+                <div class="header-menu">
+                                                                <a href="index.html"><span>principal</span>Página web</a>
+                                            <a href="index.html?a=about"><span>empresa</span>Sobre nosotros</a>
+                                            <a href="index.html?a=plans"><span>planes</span>Inversión</a>
+                                            <a href="index.html?a=news"><span>info</span>Noticias</a>
+                                            <a href="index.html?a=faq"><span>preguntas</span>Preguntas frecuentes</a>
+                                            <a href="index.html?a=support"><span>apoyo</span>Contactos</a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-lg-5">
+                <div class="header-menu">
+                                                                        <a href="index.html"><span>principal</span>Página web</a>
+                                                                                                <a href="index.html?a=about"><span>empresa</span>Sobre nosotros</a>
+                                                                                                <a href="index.html?a=plans"><span>planes</span>Inversión</a>
+                                                                                                                                                                                                </div>
+            </div>
+            <div class="col-lg-2 col-8"><a class="header-logo" href="index.html">
+                    <div class="header-logo__icon"><img src="assets/img/logo-icon.png" alt="logo-icon"/>
+                    </div><img src="assets/img/logo-text.png" alt="logo-text"/></a></div>
+            <div class="col-lg-5 col-4">
+                <div class="header-menu">
+                                                                                                                                                                                                            <a href="index.html?a=news"><span>info</span>Noticias</a>
+                                                                                                <a href="index.html?a=faq"><span>preguntas</span>Preguntas frecuentes</a>
+                                                                                                <a href="index.html?a=support"><span>apoyo</span>Contactos</a>
+                                                            </div>
+                <div class="header-burger"><span></span></div>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="header-content">
+                <div class="container">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-6 col-lg-5 offset-lg-1" data-aos="fade-right" data-aos-delay="0">
+                            <div class="header-sound">
+                                <svg>
+                                    <use xlink:href="/assets/img/sprite.svg#next"></use>
+                                </svg>
+                                <div class="header-sound__anim"></div><span>Toca</span>
+                            </div>
+                            <div class="header-subtitle">¡Bienvenido! </div>
+                            <div class="header-title">Su robot <span class="blue">de comercio </span><br>Roboto<span class="pp">p</span></div>
+                            <div class="header-text">Asistente confiable para un trabajo exitoso en el mercado de las criptomonedas
+                            </div>
+                            <div class="header-nav">
+                                                                <a class="main-btn" href="index.html?a=signup">
+                                    <p>Inscríbete en <span>ROBOTOP</span></p>
+                                    <div class="main-btn__icon"><img src="assets/img/btn-arrow.png" alt="btn-arrow"/>
+                                    </div>
+                                </a>
+                                <a class="header-btn" href="index.html?a=login">
+                                    <img src="assets/img/btn-arrow.png" alt="btn-arrow"/>Acceso
+                                </a>
+                                                            </div>
+                        </div>
+                        <div class="col-md-6" data-aos="zoom-in" data-aos-delay="0">
+                            <div class="header-scene" id="header-scene">
+                                <div class="header-scene__item" data-depth="0.1"><img src="assets/img/header-scene-1.png" alt="header-scene-1"/>
+                                </div>
+                                <div class="header-scene__item"><img src="assets/img/header-scene-2.png" alt="header-scene-2"/>
+                                </div>
+                                <div class="header-scene__item"><img src="assets/img/header-scene-3.png" alt="header-scene-3"/>
+                                </div>
+                                <div class="header-scene__item">
+                                    <canvas id="smoke"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bot">
+                <div class="container">
+                    <div class="header-bot__wrap">
+                        <div class="header-bot__col" data-aos="fade-right" data-aos-delay="0">
+                            <div class="header-bot__title"><span>medios</span>
+    <p>Social</p><img src="assets/img/header-icon-1.png" alt="header-icon-1"/>
+</div>
+<div class="header-soc">
+    <a href="https://twitter.com/ROBOTOP17" target="_blank"><img src="assets/img/tw.svg" alt="tw"/></a>
+    <a href="https://t.me/robotop_official" target="_blank"><img src="assets/img/tg.svg" alt="tg"/></a>
+    <a href="https://www.youtube.com/channel/UCVlAvEvqtE846vkzU6u8Pbw" target="_blank"><img src="assets/img/yt.svg" alt="yt"/></a>
+    <a href="http://instagram.com/robotop_official" target="_blank"><img src="assets/img/inst.svg" alt="inst"/></a>
+</div>
+                        </div>
+                        <div class="header-bot__col" data-aos="fade-right" data-aos-delay="300">
+                            <div class="header-bot__title"><span>tiempo</span>
+                                <p>Servidor</p><img src="assets/img/header-icon-2.png" alt="header-icon-2"/>
+                            </div>
+                            <div class="header-time">
+                                <p>10:35:37 </p><span>12 Jan 2021</span>
+                            </div>
+                        </div>
+                        <div class="header-bot__col" data-aos="fade-right" data-aos-delay="600">
+                            <div class="header-bot__title"><span>países</span>
+                                <p>Idiomas</p><img src="assets/img/header-icon-3.png" alt="header-icon-3"/>
+                            </div>
+                            <div class="header-lang">
+                                <div class="header-lang__item"><span class="flag-icon flag-icon-es"></span>Español<img src="assets/img/btn-arrow.png" alt="btn-arrow"/>
+                                </div>
+                                <div class="header-lang__hide">
+                                    <a class="header-lang__item" href="https://robotop.io/?language=default"><span class="flag-icon flag-icon-gb"></span>English</a>
+                                    <a class="header-lang__item" href="index.html?language=it"><span class="flag-icon flag-icon-it"></span>Italian</a>
+                                    <a class="header-lang__item" href="index.html?language=de"><span class="flag-icon flag-icon-de"></span>Deutsch</a>
+                                    <a class="header-lang__item" href="index.html?language=ru"><span class="flag-icon flag-icon-ru"></span>Russian</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+  <section class="invest">
+    <div class="container">
+        <div class="invest-wrap">
+            <div class="sect-title">¿Por qué elegirnos?</div>
+            <div class="row invest-top" data-aos="fade-down" data-aos-delay="0">
+                <div class="col-xl-4">
+                    <div class="main-title">Planes de <span>inversión </span></div>
+                </div>
+                <div class="col-xl-8">
+                    <div class="invest-calc">
+                        <div class="invest-calc__title">calcula:</div>
+                        <div class="invest-calc__nav">
+                            <div class="invest-calc__select">
+                                <select id="calc-plan">
+                                                                                                                        <option data-period="30" data-return="1" data-min="25" data-max="499" data-percent="2.50">Azerty</option>
+                                                                                                                                                                <option data-period="35" data-return="1" data-min="500" data-max="5000" data-percent="3.00">Proto</option>
+                                                                                                                                                                <option data-period="45" data-return="0" data-min="1500" data-max="100000" data-percent="5.00">Boomer</option>
+                                                                                                            </select>
+                            </div>
+                            <div class="invest-calc__input">
+                                <input type="text" id="calc-amount" value="25"><span>$</span>
+                            </div>
+                        </div>
+                        <div class="invest-calc__info">
+                            <div class="invest-calc__info-item">
+                                <p>Diario </p><span>$ <span id="calc-daily">0.63</span></span>
+                            </div>
+                            <div class="invest-calc__info-item">
+                                <p>Total </p><span>$ <span id="calc-total">43.75</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                        <div class="invest-plans" data-aos="zoom-in" data-aos-delay="0">
+                                                                                                                        <div class="invest-plan">
+                                    <div class="invest-plan__head"><img src="assets/img/plan-1.png" alt="plan-1"/><span>01</span>
+                                    </div>
+                                    <div class="invest-plan__title">Azerty</div>
+                                    <div class="invest-plan__day"><span>                    2.5<sub>% </sub></span>diario para  <span>30 </span>días</div>
+                                    <div class="invest-plan__info">
+                                        <p>Depósito mínimo:</p><span>$ 25</span>
+                                    </div>
+                                    <div class="invest-plan__info">
+                                        <p>Depósito máximo:</p><span>$ 499</span>
+                                    </div>
+                                    <div class="invest-plan__info">
+                                        <p>Ganancia total:</p><span>175 %</span>
+                                    </div>
+                                    <div class="invest-plan__info">
+                                        <p>Devolución del depósito:</p><span>Sí</span>
+                                    </div>
+                                    <a class="main-btn main-btn_tr" href="index.html?a=signup">
+                                        <p>Invierte</p>
+                                        <div class="main-btn__icon"><img src="assets/img/btn-arrow.png" alt="btn-arrow"/>
+                                        </div></a>
+                                </div>
+                                                                                                                                                                                                <div class="invest-plan">
+                                    <div class="invest-plan__head"><img src="assets/img/plan-2.png" alt="plan-2"/><span>02</span>
+                                    </div>
+                                    <div class="invest-plan__title">Proto</div>
+                                    <div class="invest-plan__day"><span>                    3<sub>% </sub></span>diario para  <span>35 </span>días</div>
+                                    <div class="invest-plan__info">
+                                        <p>Depósito mínimo:</p><span>$ 500</span>
+                                    </div>
+                                    <div class="invest-plan__info">
+                                        <p>Depósito máximo:</p><span>$ 5000</span>
+                                    </div>
+                                    <div class="invest-plan__info">
+                                        <p>Ganancia total:</p><span>205 %</span>
+                                    </div>
+                                    <div class="invest-plan__info">
+                                        <p>Devolución del depósito:</p><span>Sí</span>
+                                    </div>
+                                    <a class="main-btn main-btn_tr" href="index.html?a=signup">
+                                        <p>Invierte</p>
+                                        <div class="main-btn__icon"><img src="assets/img/btn-arrow.png" alt="btn-arrow"/>
+                                        </div></a>
+                                </div>
+                                                                                                                                                                                                <div class="invest-plan">
+                                    <div class="invest-plan__head"><img src="assets/img/plan-3.png" alt="plan-3"/><span>03</span>
+                                    </div>
+                                    <div class="invest-plan__title">Boomer</div>
+                                    <div class="invest-plan__day"><span>                    5<sub>% </sub></span>diario para  <span>45 </span>días</div>
+                                    <div class="invest-plan__info">
+                                        <p>Depósito mínimo:</p><span>$ 1500</span>
+                                    </div>
+                                    <div class="invest-plan__info">
+                                        <p>Depósito máximo:</p><span>$ 100000</span>
+                                    </div>
+                                    <div class="invest-plan__info">
+                                        <p>Ganancia total:</p><span>225 %</span>
+                                    </div>
+                                    <div class="invest-plan__info">
+                                        <p>Devolución del depósito:</p><span>No</span>
+                                    </div>
+                                    <a class="main-btn main-btn_tr" href="index.html?a=signup">
+                                        <p>Invierte</p>
+                                        <div class="main-btn__icon"><img src="assets/img/btn-arrow.png" alt="btn-arrow"/>
+                                        </div></a>
+                                </div>
+                                                                                                    </div>
+        </div>
+    </div>
+</section>
+
+  <section class="about">
+   <div class="about-bg"><img src="assets/img/about-img-1.png" alt="about-img-1"/>
+   </div>
+   <div class="container">
+    <div class="about-wrap">
+     <div class="sect-title">Compañía</div>
+     <div class="about-top">
+      <div class="about-left" data-aos="fade-right" data-aos-delay="0"><a class="about-promo popup-frame" href="http://www.youtube.com/watch?v=V_jBiwTAjFM">video promocional <span>Toca</span></a>
+       <div class="about-tabs" data-tabs-btns="about-info">
+        <div class="about-tabs__item" data-tabs-btn="1">
+         <p>Una solución innovadora</p><span>Nueva tecnología de trabajo</span><img src="assets/img/btn-arrow.png" alt="btn-arrow"/>
+        </div>
+        <div class="about-tabs__item" data-tabs-btn="2">
+         <p>Seguridad garantizada</p><span>Servicio online confiable</span><img src="assets/img/btn-arrow.png" alt="btn-arrow"/>
+        </div>
+        <div class="about-tabs__item" data-tabs-btn="3">
+         <p>Mejora continua</p><span>Mejora regular de la funcionalidad</span><img src="assets/img/btn-arrow.png" alt="btn-arrow"/>
+        </div>
+       </div>
+      </div>
+      <div class="about-right" data-aos="fade-left" data-aos-delay="0">
+       <div class="main-title">Sobre <span>nosotros </span></div>
+       <div data-tabs-wrapper="about-info">
+        <div data-tabs-item="1">
+         <div class="main-text">
+          <p>El robot de comercio Robotop está diseñado para funcionar cómodamente con una respuesta instantánea a cualquier fluctuación del mercado. Registre una cuenta personal desde una PC o dispositivo móvil, elija cualquier plan de inversión y obtenga ganancias por la venta exitosa de criptomonedas.</p>
+          <p>El servicio se configura automáticamente para comprar y vender divisas de forma activa con importantes beneficios para el comprador. </p>
+          <p>El bot está completamente automatizado. Para iniciar el trabajo, basta con ir al sitio desde cualquier dispositivo, hacer un depósito y controlar el aumento del tamaño del saldo, gracias a la inversión perfecta.</p>
+          </p>
+         </div>
+        </div>
+        <div data-tabs-item="2">
+         <div class="main-text">
+          <p>La introducción de protocolos de cifrado especiales nos permitió desarrollar un producto único con mayor seguridad. Todos los datos personales y la información sobre las transacciones realizadas están protegidos de manera confiable y solo están disponibles para el usuario.
+          </p>
+          <p>Solo trabajamos con los principales intercambios de criptomonedas.</p>
+         </div>
+        </div>
+        <div data-tabs-item="3">
+         <div class="main-text">
+          <p>El asistente digital Robotop está diseñado para el volátil mercado de criptomonedas. El robot comercial mejora regularmente su algoritmo de funcionalidad mediante la introducción de herramientas adicionales para un análisis más preciso de la casa de cambio. </p>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="row" data-aos="fade-right" data-aos-delay="0">
+      <div class="col-xl-10">
+       <div class="about-stat">
+        
+         
+         
+         
+        
+        
+         
+          
+           
+            
+           
+           
+            
+           
+          
+         
+         
+          
+           
+            
+           
+           
+            
+           
+          
+         
+         
+          
+           
+            
+           
+           
+            
+           
+          
+         
+        
+        <a class="main-btn" href="index.html?a=signup">
+         <p>Acceso a </p><span>ROBOTOP</span>
+         <div class="main-btn__icon"><img src="assets/img/btn-arrow.png" alt="btn-arrow"/>
+         </div></a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+  <section class="stat">
+ <div class="container">
+  <div class="stat-wrap">
+   <div class="invest-scene">
+    <div id="invest-scene">
+     <div data-depth="0.5"><img src="assets/img/invest-scene.png" alt="invest-scene"/>
+     </div>
+    </div>
+   </div>
+   <div class="sect-title">¿Por qué elegirnos?</div>
+   <div class="stat-col" data-aos="fade-right" data-aos-delay="0">
+    <div class="main-title">Nuestras <span>estadísticas</span></div>
+    
+    <div class="stat-info"><span><span id="days-online">10</span><img src="assets/img/stat-icon-1.png" alt="stat-icon-1"/></span>
+     <p>días de trabajo</p>
+    </div>
+
+    
+    <div class="stat-info"><span>$ 292567.68<img src="assets/img/stat-icon-3.png" alt="stat-icon-3"/></span>
+     <p>Depósitos totales</p>
+    </div>
+    
+    <div class="stat-info"><span>$ 77934.61<img src="assets/img/stat-icon-2.png" alt="stat-icon-2"/></span>
+     <p>Retiradas totales</p>
+    </div>
+   </div>
+       
+          
+      
+   <div class="stat-col" data-aos="zoom-in" data-aos-delay="0">
+    <div class="stat-title">Últimos depósitos</div>
+    <div class="stat-table">
+     <table>
+            <tr>
+       <td>
+        <div class="stat-table__title">
+         <p>D** </p><span>Jan-12-2021 01:31:25 PM</span>
+        </div>
+       </td>
+       <td align="right">
+        <div class="stat-table__val">
+         <p><span>$ </span>500.00</p>
+         <img src="assets/img/pm.svg" alt="pm"/>
+        </div>
+       </td>
+      </tr>
+            <tr>
+       <td>
+        <div class="stat-table__title">
+         <p>Erics15** </p><span>Jan-12-2021 01:29:11 PM</span>
+        </div>
+       </td>
+       <td align="right">
+        <div class="stat-table__val">
+         <p><span>$ </span>25.00</p>
+         <img src="assets/img/pm.svg" alt="pm"/>
+        </div>
+       </td>
+      </tr>
+            <tr>
+       <td>
+        <div class="stat-table__title">
+         <p>Mitch** </p><span>Jan-12-2021 01:19:12 PM</span>
+        </div>
+       </td>
+       <td align="right">
+        <div class="stat-table__val">
+         <p><span>$ </span>30.35</p>
+         <img src="assets/img/btc.svg" alt="btc"/>
+        </div>
+       </td>
+      </tr>
+            <tr>
+       <td>
+        <div class="stat-table__title">
+         <p>dimak** </p><span>Jan-12-2021 01:14:10 PM</span>
+        </div>
+       </td>
+       <td align="right">
+        <div class="stat-table__val">
+         <p><span>$ </span>27.00</p>
+         <img src="assets/img/pm.svg" alt="pm"/>
+        </div>
+       </td>
+      </tr>
+            <tr>
+       <td>
+        <div class="stat-table__title">
+         <p>natashka0** </p><span>Jan-12-2021 01:03:20 PM</span>
+        </div>
+       </td>
+       <td align="right">
+        <div class="stat-table__val">
+         <p><span>$ </span>200.00</p>
+         <img src="assets/img/pm.svg" alt="pm"/>
+        </div>
+       </td>
+      </tr>
+            <tr>
+       <td>
+        <div class="stat-table__title">
+         <p>Ilg** </p><span>Jan-12-2021 12:45:26 PM</span>
+        </div>
+       </td>
+       <td align="right">
+        <div class="stat-table__val">
+         <p><span>$ </span>100.00</p>
+         <img src="assets/img/pm.svg" alt="pm"/>
+        </div>
+       </td>
+      </tr>
+           </table>
+    </div>
+   </div>
+   <div class="stat-col" data-aos="fade-left" data-aos-delay="0">
+    <div class="stat-title stat-title_blue">Últimos retiros</div>
+    <div class="stat-table">
+     <table>
+             <tr>
+        <td>
+         <div class="stat-table__title">
+          <p>G** </p><span>Jan-12-2021 01:35:34 PM</span>
+         </div>
+        </td>
+        <td align="right">
+         <div class="stat-table__val">
+          <p><span>$ </span>2.50</p>
+          <img src="assets/img/pm.svg" alt="pm"/>
+         </div>
+        </td>
+       </tr>
+             <tr>
+        <td>
+         <div class="stat-table__title">
+          <p>kollys** </p><span>Jan-12-2021 01:35:06 PM</span>
+         </div>
+        </td>
+        <td align="right">
+         <div class="stat-table__val">
+          <p><span>$ </span>1.00</p>
+          <img src="assets/img/pm.svg" alt="pm"/>
+         </div>
+        </td>
+       </tr>
+             <tr>
+        <td>
+         <div class="stat-table__title">
+          <p>936La** </p><span>Jan-12-2021 01:28:45 PM</span>
+         </div>
+        </td>
+        <td align="right">
+         <div class="stat-table__val">
+          <p><span>$ </span>75.00</p>
+          <img src="assets/img/btc.svg" alt="btc"/>
+         </div>
+        </td>
+       </tr>
+             <tr>
+        <td>
+         <div class="stat-table__title">
+          <p>solchoyinve** </p><span>Jan-12-2021 01:28:19 PM</span>
+         </div>
+        </td>
+        <td align="right">
+         <div class="stat-table__val">
+          <p><span>$ </span>1.50</p>
+          <img src="assets/img/pm.svg" alt="pm"/>
+         </div>
+        </td>
+       </tr>
+             <tr>
+        <td>
+         <div class="stat-table__title">
+          <p>vvikk** </p><span>Jan-12-2021 01:25:01 PM</span>
+         </div>
+        </td>
+        <td align="right">
+         <div class="stat-table__val">
+          <p><span>$ </span>1.25</p>
+          <img src="assets/img/pm.svg" alt="pm"/>
+         </div>
+        </td>
+       </tr>
+             <tr>
+        <td>
+         <div class="stat-table__title">
+          <p>SantaCr** </p><span>Jan-12-2021 01:22:13 PM</span>
+         </div>
+        </td>
+        <td align="right">
+         <div class="stat-table__val">
+          <p><span>$ </span>1.50</p>
+          <img src="assets/img/pm.svg" alt="pm"/>
+         </div>
+        </td>
+       </tr>
+           </table>
+    </div>
+   </div>
+  </div>
+ </div>
+</section>
+  <section class="refs">
+   <div class="container">
+    <div class="refs-wrap">
+     <div class="sect-title">Afiliado</div>
+     <div class="refs-top" data-aos="fade-down" data-aos-delay="0">
+      <div class="main-title">Programa de <span>referencia </span></div>
+      <div class="main-text">
+       <p>No pierdas la oportunidad de ganar dinero extra.</p>
+      </div>
+     </div>
+          <div class="row">
+      <div class="col-lg-3 col-md-6" data-aos="fade-right" data-aos-delay="0">
+       <div class="refs-tabs" data-tabs-btns="refs">
+                <div class="refs-tabs__item" data-tabs-btn="1">
+         <p>Rookie </p><span>Rango 1</span>
+         <div class="refs-tabs__item-icon"><img src="assets/img/refs-1.png" alt="refs-1"/>
+         </div>
+         <div class="refs-tabs__item-arrow"><img src="assets/img/btn-arrow.png" alt="btn-arrow"/>
+         </div>
+        </div>
+                <div class="refs-tabs__item" data-tabs-btn="2">
+         <p>Leader </p><span>Rango 2</span>
+         <div class="refs-tabs__item-icon"><img src="assets/img/refs-2.png" alt="refs-2"/>
+         </div>
+         <div class="refs-tabs__item-arrow"><img src="assets/img/btn-arrow.png" alt="btn-arrow"/>
+         </div>
+        </div>
+                <div class="refs-tabs__item" data-tabs-btn="3">
+         <p>Manager </p><span>Rango 3</span>
+         <div class="refs-tabs__item-icon"><img src="assets/img/refs-3.png" alt="refs-3"/>
+         </div>
+         <div class="refs-tabs__item-arrow"><img src="assets/img/btn-arrow.png" alt="btn-arrow"/>
+         </div>
+        </div>
+                <div class="refs-tabs__item" data-tabs-btn="4">
+         <p>Vice director </p><span>Rango 4</span>
+         <div class="refs-tabs__item-icon"><img src="assets/img/refs-4.png" alt="refs-4"/>
+         </div>
+         <div class="refs-tabs__item-arrow"><img src="assets/img/btn-arrow.png" alt="btn-arrow"/>
+         </div>
+        </div>
+                <div class="refs-tabs__item" data-tabs-btn="5">
+         <p>Director </p><span>Rango 5</span>
+         <div class="refs-tabs__item-icon"><img src="assets/img/refs-5.png" alt="refs-5"/>
+         </div>
+         <div class="refs-tabs__item-arrow"><img src="assets/img/btn-arrow.png" alt="btn-arrow"/>
+         </div>
+        </div>
+                <div class="refs-tabs__item" data-tabs-btn="6">
+         <p>President </p><span>Rango 6</span>
+         <div class="refs-tabs__item-icon"><img src="assets/img/refs-6.png" alt="refs-6"/>
+         </div>
+         <div class="refs-tabs__item-arrow"><img src="assets/img/btn-arrow.png" alt="btn-arrow"/>
+         </div>
+        </div>
+               </div>
+      </div>
+      <div class="col-lg-4 col-md-6" data-aos="fade-left" data-aos-delay="0">
+       <div class="refs-content" data-tabs-wrapper="refs">
+                <div data-tabs-item="1">
+         <div class="refs-box">
+          <div class="refs-box__title">Comisiones</div>
+          <div class="refs-lvl">
+                      <div class="refs-lvl__item"><span>4<sub>%</sub></span>
+            <p>Nivel 1</p>
+           </div>
+                      <div class="refs-lvl__item"><span>1<sub>%</sub></span>
+            <p>Nivel 2</p>
+           </div>
+                     </div>
+          <div class="refs-info">
+           <div class="refs-info__title">
+            <p>Rookie</p><span>Rango 1</span>
+           </div>
+           
+            
+           
+           <div class="refs-info__item">
+            <p>Depósito del equipo: </p><span>$ 0 - 500</span>
+           </div>
+          </div>
+         </div>
+        </div>
+                <div data-tabs-item="2">
+         <div class="refs-box">
+          <div class="refs-box__title">Comisiones</div>
+          <div class="refs-lvl">
+                      <div class="refs-lvl__item"><span>5<sub>%</sub></span>
+            <p>Nivel 1</p>
+           </div>
+                      <div class="refs-lvl__item"><span>1<sub>%</sub></span>
+            <p>Nivel 2</p>
+           </div>
+                      <div class="refs-lvl__item"><span>1<sub>%</sub></span>
+            <p>Nivel 3</p>
+           </div>
+                     </div>
+          <div class="refs-info">
+           <div class="refs-info__title">
+            <p>Leader</p><span>Rango 2</span>
+           </div>
+           
+            
+           
+           <div class="refs-info__item">
+            <p>Depósito del equipo: </p><span>$ 501 - 1500</span>
+           </div>
+          </div>
+         </div>
+        </div>
+                <div data-tabs-item="3">
+         <div class="refs-box">
+          <div class="refs-box__title">Comisiones</div>
+          <div class="refs-lvl">
+                      <div class="refs-lvl__item"><span>6<sub>%</sub></span>
+            <p>Nivel 1</p>
+           </div>
+                      <div class="refs-lvl__item"><span>2<sub>%</sub></span>
+            <p>Nivel 2</p>
+           </div>
+                      <div class="refs-lvl__item"><span>1<sub>%</sub></span>
+            <p>Nivel 3</p>
+           </div>
+                     </div>
+          <div class="refs-info">
+           <div class="refs-info__title">
+            <p>Manager</p><span>Rango 3</span>
+           </div>
+           
+            
+           
+           <div class="refs-info__item">
+            <p>Depósito del equipo: </p><span>$ 1501 - 3500</span>
+           </div>
+          </div>
+         </div>
+        </div>
+                <div data-tabs-item="4">
+         <div class="refs-box">
+          <div class="refs-box__title">Comisiones</div>
+          <div class="refs-lvl">
+                      <div class="refs-lvl__item"><span>7<sub>%</sub></span>
+            <p>Nivel 1</p>
+           </div>
+                      <div class="refs-lvl__item"><span>3<sub>%</sub></span>
+            <p>Nivel 2</p>
+           </div>
+                      <div class="refs-lvl__item"><span>2<sub>%</sub></span>
+            <p>Nivel 3</p>
+           </div>
+                     </div>
+          <div class="refs-info">
+           <div class="refs-info__title">
+            <p>Vice director</p><span>Rango 4</span>
+           </div>
+           
+            
+           
+           <div class="refs-info__item">
+            <p>Depósito del equipo: </p><span>$ 3501 - 7500</span>
+           </div>
+          </div>
+         </div>
+        </div>
+                <div data-tabs-item="5">
+         <div class="refs-box">
+          <div class="refs-box__title">Comisiones</div>
+          <div class="refs-lvl">
+                      <div class="refs-lvl__item"><span>8<sub>%</sub></span>
+            <p>Nivel 1</p>
+           </div>
+                      <div class="refs-lvl__item"><span>4<sub>%</sub></span>
+            <p>Nivel 2</p>
+           </div>
+                      <div class="refs-lvl__item"><span>2<sub>%</sub></span>
+            <p>Nivel 3</p>
+           </div>
+                     </div>
+          <div class="refs-info">
+           <div class="refs-info__title">
+            <p>Director</p><span>Rango 5</span>
+           </div>
+           
+            
+           
+           <div class="refs-info__item">
+            <p>Depósito del equipo: </p><span>$ 7501 - 15000</span>
+           </div>
+          </div>
+         </div>
+        </div>
+                <div data-tabs-item="6">
+         <div class="refs-box">
+          <div class="refs-box__title">Comisiones</div>
+          <div class="refs-lvl">
+                      <div class="refs-lvl__item"><span>9<sub>%</sub></span>
+            <p>Nivel 1</p>
+           </div>
+                      <div class="refs-lvl__item"><span>5<sub>%</sub></span>
+            <p>Nivel 2</p>
+           </div>
+                      <div class="refs-lvl__item"><span>3<sub>%</sub></span>
+            <p>Nivel 3</p>
+           </div>
+                     </div>
+          <div class="refs-info">
+           <div class="refs-info__title">
+            <p>President</p><span>Rango 6</span>
+           </div>
+           
+            
+           
+           <div class="refs-info__item">
+            <p>Depósito del equipo: </p><span>$ 15001 - unlimited</span>
+           </div>
+          </div>
+         </div>
+        </div>
+               </div>
+       <div class="refs-btn"><a class="main-btn main-btn_tr" href="index.html?a=signup">
+         <p>Crear una cuenta</p>
+         <div class="main-btn__icon"><img src="assets/img/btn-arrow.png" alt="btn-arrow"/>
+         </div></a></div>
+      </div>
+      <div class="col-lg-5 d-none d-lg-block" data-aos="zoom-in" data-aos-delay="0">
+       <div class="refs-scene" id="refs-scene">
+        <div class="refs-scene__item" data-depth="0.3"><img src="assets/img/refs-scene.png" alt="refs-scene"/>
+         <div class="refs-scene__item-anim refs-scene__item-anim_1">
+          <div><img src="assets/img/refs-scene-3.png" alt="refs-scene-3"/>
+          </div>
+         </div>
+         <div class="refs-scene__item-anim refs-scene__item-anim_2">
+          <div><img src="assets/img/refs-scene-4.png" alt="refs-scene-4"/>
+          </div>
+         </div>
+        </div>
+        <div class="refs-scene__item" data-depth="0.1"><img src="assets/img/refs-scene-2.png" alt="refs-scene-2"/>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="refs-wrap">
+     <div class="sect-title">3 simples pasos</div>
+     <div class="refs-top">
+      <div class="row">
+       <div class="col-lg-5" data-aos="fade-right" data-aos-delay="0">
+        <div class="main-title">¿Cómo <span>empezar? </span></div>
+        <div class="main-text">
+         <p>Para empezar a usar el bot, solo necesita registrarse y elegir uno de los planes de inversión propuestos. Entonces, el servicio comenzará a funcionar automáticamente de acuerdo con el algoritmo seleccionado.
+         </p>
+        </div><a class="main-btn main-btn_tr" href="index.html?a=signup">
+         <p>Crear una cuenta</p>
+         <div class="main-btn__icon"><img src="assets/img/btn-arrow.png" alt="btn-arrow"/>
+         </div></a>
+       </div>
+       <div class="col-lg-7" data-aos="zoom-in" data-aos-delay="0">
+        <div class="start-slider">
+         <div class="start-slider__nav">
+          <div class="swiper-button-prev"><img src="assets/img/btn-arrow.png" alt="btn-arrow"/>
+          </div>
+          <div class="swiper-button-next"><img src="assets/img/btn-arrow.png" alt="btn-arrow"/>
+          </div>
+         </div>
+         <div class="swiper-container">
+          <div class="swiper-wrapper">
+           <div class="swiper-slide">
+            <div class="start-item"><span>01</span>
+             <h3>Regístrese en el sistema.</h3>
+             <p>Ingrese su dirección de correo electrónico y cree una contraseña. Inicie sesión y comience a trabajar con el bot. </p>
+            </div>
+           </div>
+           <div class="swiper-slide">
+            <div class="start-item"><span>02</span>
+             <h3>Reponga su depósito.</h3>
+             <p>Después de iniciar la sesión en su cuenta personal, recargue el saldo para realizar compras y ventas.
+             </p>
+            </div>
+           </div>
+           <div class="swiper-slide">
+            <div class="start-item"><span>03</span>
+             <h3>Obtenga ganancias por el trabajo del bot.</h3>
+             <p>Retire los fondos recibidos a su cuenta personal o utilícelos para trabajos posteriores.
+             </p>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-top" data-aos="fade-down" data-aos-delay="0">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-5">
+                                        <div class="footer-menu">
+                                                                                    <a href="index.html"><span>principal</span>Página web</a>
+                                                                                                                <a href="index.html?a=about"><span>empresa</span>Sobre nosotros</a>
+                                                                                                                <a href="index.html?a=plans"><span>planes</span>Inversión</a>
+                                                                                                                                                                                                                                    </div>
+                </div>
+                <div class="col-lg-2"><a class="footer-logo" href="index.html">
+                        <div class="footer-logo__icon"><img src="assets/img/logo-icon.png" alt="logo-icon"/>
+                        </div><img src="assets/img/logo-text.png" alt="logo-text"/></a></div>
+                <div class="col-lg-5">
+                    <div class="footer-menu">
+                                                                                                                                                                                                                                                <a href="index.html?a=news"><span>info</span>Noticias</a>
+                                                                                                                <a href="index.html?a=faq"><span>preguntas</span>Preguntas frecuentes</a>
+                                                                                                                <a href="index.html?a=support"><span>apoyo</span>Contactos</a>
+                                                                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-center" data-aos="zoom-in" data-aos-delay="0">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-5">
+                    <div class="footer-text">Los desarrolladores de robots están mejorando constantemente la eficiencia del sistema, así como la seguridad y la protección de los datos de los usuarios.</div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="footer-nav">
+                        <div class="footer-nav__item">
+                            <div class="header-bot__title"><span>Dirección</span><a href="https://goo.gl/maps/7YaDA9SCCVCnvxbf9" target="_blank">118 Merrow Street, London, United Kingdom, SE17 2NP</a><img src="assets/img/header-icon-3.png" alt="header-icon-3"/></div>
+                        </div>
+                        <div class="footer-nav__item">
+                            <div class="header-bot__title"><span>medios</span>
+    <p>Social</p><img src="assets/img/header-icon-1.png" alt="header-icon-1"/>
+</div>
+<div class="header-soc">
+    <a href="https://twitter.com/ROBOTOP17" target="_blank"><img src="assets/img/tw.svg" alt="tw"/></a>
+    <a href="https://t.me/robotop_official" target="_blank"><img src="assets/img/tg.svg" alt="tg"/></a>
+    <a href="https://www.youtube.com/channel/UCVlAvEvqtE846vkzU6u8Pbw" target="_blank"><img src="assets/img/yt.svg" alt="yt"/></a>
+    <a href="http://instagram.com/robotop_official" target="_blank"><img src="assets/img/inst.svg" alt="inst"/></a>
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bot" data-aos="fade-up" data-aos-delay="0">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-9">
+                    <div class="footer-wallets">
+                        <div class="footer-wallets__item"><img src="assets/img/pm.svg" alt="pm"/>
+                        </div>
+                        <div class="footer-wallets__item"><img src="assets/img/btc.svg" alt="btc"/>
+                        </div>
+                        <div class="footer-wallets__item"><img src="assets/img/eth.svg" alt="eth"/>
+                        </div>
+                        <div class="footer-wallets__item"><img src="assets/img/ltc.svg" alt="ltc"/>
+                        </div><span>aceptamos</span>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-links"><a href="index.html?a=rules">Condiciones de uso</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+</div>
+<script src="assets/libs/jquery.min.js"></script>
+<script src="assets/libs/svg4everybody.js"></script>
+<script src="assets/libs/smoke/smoke.js"></script>
+<script src="assets/libs/momentjs/moment.min.js"></script>
+<script src="assets/libs/momentjs/moment-time-zone.js"></script>
+<script src="assets/libs/swiper/swiper.min.js"></script>
+<script src="assets/libs/formstyler/jquery.formstyler.min.js"></script>
+<script src="assets/libs/clipboard.js/clipboard.min.js"></script>
+<script src="assets/libs/lobibox/js/lobibox.min.js"></script>
+<script src="assets/libs/ResponsiveTables/ng_responsive_tables.js"></script>
+<script src="assets/libs/magnific-popup/magnific-popup.min.js"></script>
+<script src="assets/libs/parallax/parallax.min.js"></script>
+<script src="assets/libs/jquery.nicescroll/jquery.nicescroll.min.js"></script>
+<script src="assets/libs/aos/aos.js"></script>
+<script src="assets/js/app.js"></script>
+
+    <!-- Start of LiveChat (www.livechatinc.com) code -->
+    <script>
+        window.__lc = window.__lc || {};
+        window.__lc.license = 12481938;
+        ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
+    </script>
+    <noscript><a href="https://www.livechatinc.com/chat-with/12481938/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
+    <!-- End of LiveChat code -->
+
+</body>
+</html>
+<script>
+    $(function () {
+        $('#calc-plan').change(function () {
+            var item = $(this).find('option:selected');
+            var min = item.data('min');
+            var max = item.data('max');
+            var dep_return = item.data('return');
+            var period = item.data('period');
+            var days = item.data('days');
+            var percent = item.data('percent');
+
+            $('#calc-amount').val(min);
+
+            var daily = min/100*percent;
+            if(dep_return==0){
+                var total = daily*period;
+            }else{
+                var total = daily*period+min;
+            }
+
+            daily = daily.toFixed(2);
+            total = total.toFixed(2);
+
+            $('#calc-daily').text(daily);
+            $('#calc-total').text(total);
+        });
+        $('#calc-amount').on('change keyup',function () {
+            var item = $('#calc-plan option:selected');
+            var min = item.data('min');
+            var max = item.data('max');
+            var dep_return = item.data('return');
+            var period = item.data('period');
+            var days = item.data('days');
+            var percent = item.data('percent');
+            var amount = parseFloat($(this).val());
+            if(amount>max){
+                amount = max;
+                $(this).val(max);
+            }
+            if(amount>=min) {
+
+                var daily = amount / 100 * percent;
+                if(dep_return==0){
+                    var total = daily*period;
+                }else{
+                    var total = daily*period+amount;
+                }
+
+                daily = daily.toFixed(2);
+                total = total.toFixed(2);
+
+                $('#calc-daily').text(daily);
+                $('#calc-total').text(total);
+            }
+        });
+    });
+</script>

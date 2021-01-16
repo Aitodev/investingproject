@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Robotop</title>
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicons/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="assets/libs/bootstrap/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets/libs/swiper/swiper.min.css">
+    <link rel="stylesheet" href="assets/libs/formstyler/jquery.formstyler.css">
+    <link rel="stylesheet" href="assets/libs/formstyler/jquery.formstyler.theme.css">
+    <link rel="stylesheet" href="assets/libs/lobibox/css/lobibox.min.css">
+    <link rel="stylesheet" href="assets/libs/ResponsiveTables/ng_responsive_tables.css">
+    <link rel="stylesheet" href="assets/libs/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="assets/libs/animatecss/animate.css">
+    <link rel="stylesheet" href="assets/libs/aos/aos.css">
+    <link rel="stylesheet" href="assets/libs/flag-icon/css/flag-icon.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/custom.css?v=1.0001">
+    <!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+    <style>
+        .header-title .pp:after{
+            right: 19px;
+            bottom: -1px;
+            border-bottom-right-radius: 5px;
+        }
+        @media screen and (max-width: 480px){
+            .header-title .pp:after {
+                right: 17px;
+                bottom: 2px;
+            }
+        }
+    </style>
+</head>
+<body>
+<svg class="svg-gradients">
+    <lineargradient id="gr" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color: #092abb;stop-opacity:1"></stop>
+        <stop offset="100%" style="stop-color: #e53946;stop-opacity:1"></stop>
+    </lineargradient>
+    <lineargradient id="gr-r" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color: #e53946;stop-opacity:1"></stop>
+        <stop offset="100%" style="stop-color: #092abb;stop-opacity:1"></stop>
+    </lineargradient>
+</svg>
+
+<div class="wrapper">
+    <div class="content">
+        <header class="header">
+            <div class="header-top" data-aos="fade-down" data-aos-delay="0">
+    <div class="header-mob">
+        <div class="nicescroll-box">
+            <div class="wrap">
+                <div class="header-menu">
+                                                                <a href="index.html"><span>Main</span>Home</a>
+                                            <a href="index.html?a=about"><span>company</span>About us</a>
+                                            <a href="index.html?a=plans"><span>plans</span>Investment</a>
+                                            <a href="index.html?a=news"><span>info</span>News</a>
+                                            <a class="active" href="index.html?a=faq"><span>questions</span>FAQ</a>
+                                            <a href="index.html?a=support"><span>support</span>Contacts</a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row d-flex align-items-center">
+            <div class="col-lg-5">
+                <div class="header-menu">
+                                                                        <a href="index.html"><span>Main</span>Home</a>
+                                                                                                <a href="index.html?a=about"><span>company</span>About us</a>
+                                                                                                <a href="index.html?a=plans"><span>plans</span>Investment</a>
+                                                                                                                                                                                                </div>
+            </div>
+            <div class="col-lg-2 col-8"><a class="header-logo" href="index.html">
+                    <div class="header-logo__icon"><img src="assets/img/logo-icon.png" alt="logo-icon"/>
+                    </div><img src="assets/img/logo-text.png" alt="logo-text"/></a></div>
+            <div class="col-lg-5 col-4">
+                <div class="header-menu">
+                                                                                                                                                                                                            <a href="index.html?a=news"><span>info</span>News</a>
+                                                                                                <a class="active" href="index.html?a=faq"><span>questions</span>FAQ</a>
+                                                                                                <a href="index.html?a=support"><span>support</span>Contacts</a>
+                                                            </div>
+                <div class="header-burger"><span></span></div>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="header-content">
+                <div class="container">
+                    <div class="row d-flex align-items-center">
+                        <div class="col-md-6 col-lg-5 offset-lg-1" data-aos="fade-right" data-aos-delay="0">
+                            <div class="header-sound">
+                                <svg>
+                                    <use xlink:href="/assets/img/sprite.svg#next"></use>
+                                </svg>
+                                <div class="header-sound__anim"></div><span>Play</span>
+                            </div>
+                            <div class="header-subtitle">Welcome! </div>
+                            <div class="header-title">Your <span class="blue">trading </span><br><sup>bot </sup>Roboto<span class="pp">p</span></div>
+                            <div class="header-text">Your reliable assistant for successful performance in the cryptocurrency market
+                            </div>
+                            <div class="header-nav">
+                                                                <a class="main-btn" href="index.html?a=signup">
+                                    <p>Signup <span>ROBOTOP</span></p>
+                                    <div class="main-btn__icon"><img src="assets/img/btn-arrow.png" alt="btn-arrow"/>
+                                    </div>
+                                </a>
+                                <a class="header-btn" href="index.html?a=login">
+                                    <img src="assets/img/btn-arrow.png" alt="btn-arrow"/>Login
+                                </a>
+                                                            </div>
+                        </div>
+                        <div class="col-md-6" data-aos="zoom-in" data-aos-delay="0">
+                            <div class="header-scene" id="header-scene">
+                                <div class="header-scene__item" data-depth="0.1"><img src="assets/img/header-scene-1.png" alt="header-scene-1"/>
+                                </div>
+                                <div class="header-scene__item"><img src="assets/img/header-scene-2.png" alt="header-scene-2"/>
+                                </div>
+                                <div class="header-scene__item"><img src="assets/img/header-scene-3.png" alt="header-scene-3"/>
+                                </div>
+                                <div class="header-scene__item">
+                                    <canvas id="smoke"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bot">
+                <div class="container">
+                    <div class="header-bot__wrap">
+                        <div class="header-bot__col" data-aos="fade-right" data-aos-delay="0">
+                            <div class="header-bot__title"><span>media</span>
+    <p>Social</p><img src="assets/img/header-icon-1.png" alt="header-icon-1"/>
+</div>
+<div class="header-soc">
+    <a href="https://twitter.com/ROBOTOP17" target="_blank"><img src="assets/img/tw.svg" alt="tw"/></a>
+    <a href="https://t.me/robotop_official" target="_blank"><img src="assets/img/tg.svg" alt="tg"/></a>
+    <a href="https://www.youtube.com/channel/UCVlAvEvqtE846vkzU6u8Pbw" target="_blank"><img src="assets/img/yt.svg" alt="yt"/></a>
+    <a href="http://instagram.com/robotop_official" target="_blank"><img src="assets/img/inst.svg" alt="inst"/></a>
+</div>
+                        </div>
+                        <div class="header-bot__col" data-aos="fade-right" data-aos-delay="300">
+                            <div class="header-bot__title"><span>time</span>
+                                <p>Server</p><img src="assets/img/header-icon-2.png" alt="header-icon-2"/>
+                            </div>
+                            <div class="header-time">
+                                <p>10:35:31 </p><span>12 Jan 2021</span>
+                            </div>
+                        </div>
+                        <div class="header-bot__col" data-aos="fade-right" data-aos-delay="600">
+                            <div class="header-bot__title"><span>countries</span>
+                                <p>Languages</p><img src="assets/img/header-icon-3.png" alt="header-icon-3"/>
+                            </div>
+                            <div class="header-lang">
+                                <div class="header-lang__item"><span class="flag-icon flag-icon-us"></span>English<img src="assets/img/btn-arrow.png" alt="btn-arrow"/>
+                                </div>
+                                <div class="header-lang__hide">
+                                    <a class="header-lang__item" href="index.html?language=it"><span class="flag-icon flag-icon-it"></span>Italian</a>
+                                    <a class="header-lang__item" href="index.html?language=de"><span class="flag-icon flag-icon-de"></span>Deutsch</a>
+                                    <a class="header-lang__item" href="index.html?language=es"><span class="flag-icon flag-icon-es"></span>Spanish</a>
+                                    <a class="header-lang__item" href="index.html?language=ru"><span class="flag-icon flag-icon-ru"></span>Russian</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+<section class="about about_page">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center" data-aos="fade-down" data-aos-delay="0">
+        <div class="main-title">FAQ <span>questions</span></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12" data-aos="zoom-in" data-aos-delay="600">
+        <div class="faq tabs__wrap">
+          <div class="tabs">
+            <div class="tab active">General Questions</div>
+            <div class="tab">Technical issues</div>
+            <div class="tab">Financial Questions</div>
+          </div>
+          <div class="tab_content">
+                        <div class="tab_item">
+              <div class="accordion">
+                                  <div class="accordion__item">
+                    <div class="accordion__head">
+                      <h2>Is Robotop an officially registered company?
+                        <svg>
+                          <use xlink:href="/assets/img/sprite.svg#faq"></use>
+                        </svg>
+                      </h2>
+                    </div>
+                    <div class="accordion__body">
+                      <div class="accordion__text">
+                        <p>The LLP Robotop headquarters in the UK on December 31, 2020. The company registration number is 13107019. The business address is 118 Merrow Street, London, United Kingdom, SE17 2NP.</p>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="accordion__item">
+                    <div class="accordion__head">
+                      <h2>Who can be a Robotop client?
+                        <svg>
+                          <use xlink:href="/assets/img/sprite.svg#faq"></use>
+                        </svg>
+                      </h2>
+                    </div>
+                    <div class="accordion__body">
+                      <div class="accordion__text">
+                        <p>Both private and corporate clients from any country, regardless of citizenship, can become the client of the Robotop service. An obligatory condition for cooperation with us is the legal age of individuals. This age is determined by the laws of the residence country.</p>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="accordion__item">
+                    <div class="accordion__head">
+                      <h2>How to become a Robotop customer?
+                        <svg>
+                          <use xlink:href="/assets/img/sprite.svg#faq"></use>
+                        </svg>
+                      </h2>
+                    </div>
+                    <div class="accordion__body">
+                      <div class="accordion__text">
+                        <p>To become a client of the Robotop service, you need to go through a several-step registration, the link to which is located in the main menu of the site. Then, fill in the form where you are to specify your personal data. It usually takes no more than 5 minutes. Moreover, registration on the website is absolutely free.</p>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="accordion__item">
+                    <div class="accordion__head">
+                      <h2>Can I set up an account online for free?
+                        <svg>
+                          <use xlink:href="/assets/img/sprite.svg#faq"></use>
+                        </svg>
+                      </h2>
+                    </div>
+                    <div class="accordion__body">
+                      <div class="accordion__text">
+                        <p>Yes, you don't have to pay for the account setting-up.</p>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="accordion__item">
+                    <div class="accordion__head">
+                      <h2>What is the Robotop privacy policy?
+                        <svg>
+                          <use xlink:href="/assets/img/sprite.svg#faq"></use>
+                        </svg>
+                      </h2>
+                    </div>
+                    <div class="accordion__body">
+                      <div class="accordion__text">
+                        <p>Robotop pays special attention to the privacy of its customers' data. All information provided to the service by users during registration and while further usage is highly protected. The Robotop system does not transfer data to third parties. You can read more about the company's privacy policy on the website in a special section Terms of Service.</p>
+                      </div>
+                    </div>
+                  </div>
+                              </div>
+            </div>
+
+                        <div class="tab_item">
+              <div class="accordion">
+                                  <div class="accordion__item">
+                    <div class="accordion__head">
+                      <h2>I have problems with the registration process. What should I do?
+                        <svg>
+                          <use xlink:href="/assets/img/sprite.svg#faq"></use>
+                        </svg>
+                      </h2>
+                    </div>
+                    <div class="accordion__body">
+                      <div class="accordion__text">
+                        <p>First, check the correctness of the data entry. If you fill in any field incorrectly, the system highlights the error with an underline. Also, the problem may arise due to browser problems. In this case, try to go through the registration process in another browser. Or you may disable auto-translation in the current one. Be free to ask us for help. We solve the technical problems of any kind as soon as possible. Contact our technical support specialists if you need our competent assistance.</p>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="accordion__item">
+                    <div class="accordion__head">
+                      <h2>How long does it take to activate the account?
+                        <svg>
+                          <use xlink:href="/assets/img/sprite.svg#faq"></use>
+                        </svg>
+                      </h2>
+                    </div>
+                    <div class="accordion__body">
+                      <div class="accordion__text">
+                        <p>The account becomes activated immediately after registration.</p>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="accordion__item">
+                    <div class="accordion__head">
+                      <h2>How can I get access to my account?
+                        <svg>
+                          <use xlink:href="/assets/img/sprite.svg#faq"></use>
+                        </svg>
+                      </h2>
+                    </div>
+                    <div class="accordion__body">
+                      <div class="accordion__text">
+                        <p>To log into your account, enter your name and password in the authorization window. Then click the LOGIN button.</p>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="accordion__item">
+                    <div class="accordion__head">
+                      <h2>How can I manage my account?
+                        <svg>
+                          <use xlink:href="/assets/img/sprite.svg#faq"></use>
+                        </svg>
+                      </h2>
+                    </div>
+                    <div class="accordion__body">
+                      <div class="accordion__text">
+                        <p>Use a navigation menu to manage the account. It is located on the left side of the website control panel.</p>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="accordion__item">
+                    <div class="accordion__head">
+                      <h2>Are my account and personal data details safe?
+                        <svg>
+                          <use xlink:href="/assets/img/sprite.svg#faq"></use>
+                        </svg>
+                      </h2>
+                    </div>
+                    <div class="accordion__body">
+                      <div class="accordion__text">
+                        <p>To keep data on the server confidential, we use modern encryption technologies and secure Internet connections.</p>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="accordion__item">
+                    <div class="accordion__head">
+                      <h2>Can I create several accounts for my family members?
+                        <svg>
+                          <use xlink:href="/assets/img/sprite.svg#faq"></use>
+                        </svg>
+                      </h2>
+                    </div>
+                    <div class="accordion__body">
+                      <div class="accordion__text">
+                        <p>No, the Robotop policy does not allow it. Only one authorized account is required for an address. For this reason, you cannot register another account for your relative/close person living at the same address.</p>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="accordion__item">
+                    <div class="accordion__head">
+                      <h2>How could I put money in my account?
+                        <svg>
+                          <use xlink:href="/assets/img/sprite.svg#faq"></use>
+                        </svg>
+                      </h2>
+                    </div>
+                    <div class="accordion__body">
+                      <div class="accordion__text">
+                        <p>To top up your account, follow the recommendations:<br>
+Log in to your account. Then in the navigation menu, press the button TOP UP THE ACCOUNT;<br>
+Go to the electronic payment form;<br>
+Choose the appropriate investment plan and the payment method;<br>
+Press the button PAY;<br>
+Go to the payment confirmation page;<br>
+Check the correctness of the specified data, and then confirm the payment.<br>
+After this process, you will be redirected to the cart of the payment system. Complete the refund and return to the main page of the website. Finally, check whether the transaction was completed or not.</p>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="accordion__item">
+                    <div class="accordion__head">
+                      <h2>How long does a deposit take to be credited to my account?
+                        <svg>
+                          <use xlink:href="/assets/img/sprite.svg#faq"></use>
+                        </svg>
+                      </h2>
+                    </div>
+                    <div class="accordion__body">
+                      <div class="accordion__text">
+                        <p>The replenishing time depends on the payment system. When paying via Perfect Money, the balance updates immediately after depositing money. If you use cryptocurrencies, you need to wait for the confirmation of the transaction through the blockchain network. If the balance is not topped up after 12 hours from the date of the transaction, please contact our support service.</p>
+                      </div>
+                    </div>
+                  </div>
+                              </div>
+            </div>
+
+                        <div class="tab_item">
+              <div class="accordion">
+                                  <div class="accordion__item">
+                    <div class="accordion__head">
+                      <h2>How much could I earn in Robotop on each investment plan?
+                        <svg>
+                          <use xlink:href="/assets/img/sprite.svg#faq"></use>
+                        </svg>
+                      </h2>
+                    </div>
+                    <div class="accordion__body">
+                      <div class="accordion__text">
+                        <p>Each of the three investment plans has its terms and reward scoring system. With the help of the first investment plan, you will earn 2.5% daily for 30 days. So, you will increase your investment amount by 75% for the entire period. The second investment plan will give you 3% of your daily income for 35 days. So, your investment amount will increase by 105% over the entire period. By choosing the third investment plan, your profit will grow by 5% every day, within 45 days. This way you increase your investment amount by 225% totally.</p>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="accordion__item">
+                    <div class="accordion__head">
+                      <h2>What are the limits for the investment amount?
+                        <svg>
+                          <use xlink:href="/assets/img/sprite.svg#faq"></use>
+                        </svg>
+                      </h2>
+                    </div>
+                    <div class="accordion__body">
+                      <div class="accordion__text">
+                        <p>The minimum investment amount that is available for one transaction is $25 (or a similar equivalent of this amount in cryptocurrency). The maximum one is $10,000 (or the same amount, but converted to cryptocurrency).</p>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="accordion__item">
+                    <div class="accordion__head">
+                      <h2>Can I create several deposits at the same time?
+                        <svg>
+                          <use xlink:href="/assets/img/sprite.svg#faq"></use>
+                        </svg>
+                      </h2>
+                    </div>
+                    <div class="accordion__body">
+                      <div class="accordion__text">
+                        <p>Yes. You can set up any number of deposits.</p>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="accordion__item">
+                    <div class="accordion__head">
+                      <h2>Can I reinvest my income (replenish my account using the received profit)?
+                        <svg>
+                          <use xlink:href="/assets/img/sprite.svg#faq"></use>
+                        </svg>
+                      </h2>
+                    </div>
+                    <div class="accordion__body">
+                      <div class="accordion__text">
+                        <p>Yes. You can reinvest your profits in your account.</p>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="accordion__item">
+                    <div class="accordion__head">
+                      <h2>What e-currencies do you accept?
+                        <svg>
+                          <use xlink:href="/assets/img/sprite.svg#faq"></use>
+                        </svg>
+                      </h2>
+                    </div>
+                    <div class="accordion__body">
+                      <div class="accordion__text">
+                        <p>The Robotop service accepts Perfect Money, as well as for cryptocurrencies - Bitcoin, Ethereum, Litecoin.</p>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="accordion__item">
+                    <div class="accordion__head">
+                      <h2>How does the service exchange cryptocurrencies into US dollars (fiat money)? Is there a risk for depositors?
+                        <svg>
+                          <use xlink:href="/assets/img/sprite.svg#faq"></use>
+                        </svg>
+                      </h2>
+                    </div>
+                    <div class="accordion__body">
+                      <div class="accordion__text">
+                        <p>There is no risk for depositors. Shifts in exchange rates do not affect your profits. Therefore, the accepted cryptocurrencies are converted into US dollars automatically. Thus, the service guarantees that our clients will receive a flat interest rate, regardless of the volatility of the crypto market.</p>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="accordion__item">
+                    <div class="accordion__head">
+                      <h2>How to withdraw earned money?
+                        <svg>
+                          <use xlink:href="/assets/img/sprite.svg#faq"></use>
+                        </svg>
+                      </h2>
+                    </div>
+                    <div class="accordion__body">
+                      <div class="accordion__text">
+                        <p>To withdraw earnings, you need to send a withdrawal request. Use your account and click on the WITHDRAW MONEY button. Specify the required amount and choose a payment system.</p>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="accordion__item">
+                    <div class="accordion__head">
+                      <h2>How long does a withdrawal request take?
+                        <svg>
+                          <use xlink:href="/assets/img/sprite.svg#faq"></use>
+                        </svg>
+                      </h2>
+                    </div>
+                    <div class="accordion__body">
+                      <div class="accordion__text">
+                        <p>You can withdraw money instantly. In very rare cases, delays are possible for up to 12 hours due to technical problems.</p>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="accordion__item">
+                    <div class="accordion__head">
+                      <h2>Are there any limits on the amount of money withdrawn?
+                        <svg>
+                          <use xlink:href="/assets/img/sprite.svg#faq"></use>
+                        </svg>
+                      </h2>
+                    </div>
+                    <div class="accordion__body">
+                      <div class="accordion__text">
+                        <p>Robotop does not have any restrictions on the maximum amount of payments. But there is a limit for the minimum, which depends on the payment system you use. For example, it is $1 for Perfect Money, $10 is for Bitcoin and Litecoin. For Ethereum minimum for withdrawal is 20$</p>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="accordion__item">
+                    <div class="accordion__head">
+                      <h2>Do I have to pay a withdrawal fee?
+                        <svg>
+                          <use xlink:href="/assets/img/sprite.svg#faq"></use>
+                        </svg>
+                      </h2>
+                    </div>
+                    <div class="accordion__body">
+                      <div class="accordion__text">
+                        <p>No, we do not require any commission.</p>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="accordion__item">
+                    <div class="accordion__head">
+                      <h2>Do I have to pay any taxes on my earnings?
+                        <svg>
+                          <use xlink:href="/assets/img/sprite.svg#faq"></use>
+                        </svg>
+                      </h2>
+                    </div>
+                    <div class="accordion__body">
+                      <div class="accordion__text">
+                        <p>The Robotop service does not provide tax and other government services with any information about your earnings. Therefore, you may decide whether to declare your income on Robotop in your tax records or not.</p>
+                      </div>
+                    </div>
+                  </div>
+                                  <div class="accordion__item">
+                    <div class="accordion__head">
+                      <h2>Do you have loyalty programs?
+                        <svg>
+                          <use xlink:href="/assets/img/sprite.svg#faq"></use>
+                        </svg>
+                      </h2>
+                    </div>
+                    <div class="accordion__body">
+                      <div class="accordion__text">
+                        <p>Yes. The Robotop service has a multi-level loyalty program with a system of ranks. It depends on the number of deposits and personal funds. For more information, go on the home page.</p>
+                      </div>
+                    </div>
+                  </div>
+                              </div>
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-top" data-aos="fade-down" data-aos-delay="0">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-5">
+                                        <div class="footer-menu">
+                                                                                    <a href="index.html"><span>Main</span>Home</a>
+                                                                                                                <a href="index.html?a=about"><span>company</span>About us</a>
+                                                                                                                <a href="index.html?a=plans"><span>plans</span>Investment</a>
+                                                                                                                                                                                                                                    </div>
+                </div>
+                <div class="col-lg-2"><a class="footer-logo" href="index.html">
+                        <div class="footer-logo__icon"><img src="assets/img/logo-icon.png" alt="logo-icon"/>
+                        </div><img src="assets/img/logo-text.png" alt="logo-text"/></a></div>
+                <div class="col-lg-5">
+                    <div class="footer-menu">
+                                                                                                                                                                                                                                                <a href="index.html?a=news"><span>info</span>News</a>
+                                                                                                                <a class="active" href="index.html?a=faq"><span>questions</span>FAQ</a>
+                                                                                                                <a href="index.html?a=support"><span>support</span>Contacts</a>
+                                                                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-center" data-aos="zoom-in" data-aos-delay="0">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-5">
+                    <div class="footer-text">Robotop developers are constantly improving the efficiency of the system, as well as the security and safety of user data.</div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="footer-nav">
+                        <div class="footer-nav__item">
+                            <div class="header-bot__title"><span>Address</span><a href="https://goo.gl/maps/7YaDA9SCCVCnvxbf9" target="_blank">118 Merrow Street, London, United Kingdom, SE17 2NP</a><img src="assets/img/header-icon-3.png" alt="header-icon-3"/></div>
+                        </div>
+                        <div class="footer-nav__item">
+                            <div class="header-bot__title"><span>media</span>
+    <p>Social</p><img src="assets/img/header-icon-1.png" alt="header-icon-1"/>
+</div>
+<div class="header-soc">
+    <a href="https://twitter.com/ROBOTOP17" target="_blank"><img src="assets/img/tw.svg" alt="tw"/></a>
+    <a href="https://t.me/robotop_official" target="_blank"><img src="assets/img/tg.svg" alt="tg"/></a>
+    <a href="https://www.youtube.com/channel/UCVlAvEvqtE846vkzU6u8Pbw" target="_blank"><img src="assets/img/yt.svg" alt="yt"/></a>
+    <a href="http://instagram.com/robotop_official" target="_blank"><img src="assets/img/inst.svg" alt="inst"/></a>
+</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bot" data-aos="fade-up" data-aos-delay="0">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-9">
+                    <div class="footer-wallets">
+                        <div class="footer-wallets__item"><img src="assets/img/pm.svg" alt="pm"/>
+                        </div>
+                        <div class="footer-wallets__item"><img src="assets/img/btc.svg" alt="btc"/>
+                        </div>
+                        <div class="footer-wallets__item"><img src="assets/img/eth.svg" alt="eth"/>
+                        </div>
+                        <div class="footer-wallets__item"><img src="assets/img/ltc.svg" alt="ltc"/>
+                        </div><span>we accept</span>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-links"><a href="index.html?a=rules">Terms of Use</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+</div>
+<script src="assets/libs/jquery.min.js"></script>
+<script src="assets/libs/svg4everybody.js"></script>
+<script src="assets/libs/smoke/smoke.js"></script>
+<script src="assets/libs/momentjs/moment.min.js"></script>
+<script src="assets/libs/momentjs/moment-time-zone.js"></script>
+<script src="assets/libs/swiper/swiper.min.js"></script>
+<script src="assets/libs/formstyler/jquery.formstyler.min.js"></script>
+<script src="assets/libs/clipboard.js/clipboard.min.js"></script>
+<script src="assets/libs/lobibox/js/lobibox.min.js"></script>
+<script src="assets/libs/ResponsiveTables/ng_responsive_tables.js"></script>
+<script src="assets/libs/magnific-popup/magnific-popup.min.js"></script>
+<script src="assets/libs/parallax/parallax.min.js"></script>
+<script src="assets/libs/jquery.nicescroll/jquery.nicescroll.min.js"></script>
+<script src="assets/libs/aos/aos.js"></script>
+<script src="assets/js/app.js"></script>
+
+    <!-- Start of LiveChat (www.livechatinc.com) code -->
+    <script>
+        window.__lc = window.__lc || {};
+        window.__lc.license = 12481938;
+        ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
+    </script>
+    <noscript><a href="https://www.livechatinc.com/chat-with/12481938/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechatinc.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
+    <!-- End of LiveChat code -->
+
+</body>
+</html>
